@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">"http://coms-309-sb-2.misc.iastate.edu:8080/persons"</domain>
+    </domain-config>
+</network-security-config>

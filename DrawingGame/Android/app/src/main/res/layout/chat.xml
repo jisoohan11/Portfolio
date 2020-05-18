@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#00000000">
+
+    <TextView
+        android:id="@+id/game_chat_tx1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/game_chat_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/game_chat_et1"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:hint="message"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/game_chat_enter_btn"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:background="#B0C4E1"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="Send" />
+        <Button
+            android:id="@+id/game_guess_btn"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="center_vertical"
+            android:background="#B0C4E1"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="Guess" />
+    </LinearLayout>
+
+</LinearLayout>

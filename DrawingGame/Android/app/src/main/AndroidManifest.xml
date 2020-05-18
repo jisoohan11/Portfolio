@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.worddrawing">
+
+    <uses-permission android:name="android.permission.INTERNET" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:required="true"/>
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Word drawing"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.GuessActivity"/>
+        <activity android:name=".Activity.Draw.DrawActivity" />
+        <activity
+            android:name=".Activity.Register.RegisterActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name=".Adapter.FriendAdapter" />
+        <activity
+            android:name=".Resource.Contact"
+            android:theme="@style/AppTheme.Contact" />
+        <activity android:name=".Activity.Chat.ChatActivity" />
+        <activity android:name=".Activity.Friend.FriendActivity" />
+        <activity android:name=".Activity.GalleryActivity" />
+        <activity android:name=".Activity.UploadActivity" />
+        <activity android:name=".Activity.Profile.ProfileActivity" />
+        <activity android:name=".Activity.Setting.SettingActivity" />
+        <activity android:name=".Activity.LoadGameActivity" />
+        <activity
+            android:name=".Activity.RoomActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".Activity.LobbyActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.Login.LoginActivity"
+            android:windowSoftInputMode="adjustResize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

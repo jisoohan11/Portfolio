@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="8dp"
+        android:text="Setting" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="528dp"
+        android:text="Gallery" />
+
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="445dp"
+        android:text="Join Lobby" />
+
+    <Button
+        android:id="@+id/friend"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="530dp"
+        android:text="Friend" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="445dp"
+        android:text="Create Lobby" />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="135dp"
+        android:layout_height="192dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="534dp"
+        app:srcCompat="@drawable/character" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="242dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/gametitle" />
+
+
+</RelativeLayout>

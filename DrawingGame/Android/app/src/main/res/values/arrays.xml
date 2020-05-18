@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reply Preference -->
+
+    <array name="autosize_text_sizes">
+        <item>25sp</item>
+        <item>35sp</item>
+        <item>40sp</item>
+        <item>45sp</item>
+        <item>50sp</item>
+    </array>
+</resources>
